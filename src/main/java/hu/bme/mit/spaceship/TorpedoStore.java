@@ -28,6 +28,7 @@ public class TorpedoStore {
     }
   }
   
+  // it's static because all TorpedoStores share this random generator
   private static Random generator = new Random();
 
   public boolean fire(int numberOfTorpedos){
